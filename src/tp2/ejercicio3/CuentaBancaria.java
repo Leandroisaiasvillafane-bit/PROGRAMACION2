@@ -7,9 +7,9 @@ package tp2.ejercicio3;
 public class CuentaBancaria {
     
     //Variables de la clase CuentaBancaria
-    private String nomTitular="Desconocido";
-    private int numCuenta=00000;
-    private double saldo=0000;
+    private String nomTitular;
+    private int numCuenta;
+    private double saldo;
     
     //Constructor con parametros
     public CuentaBancaria(String nomTitular,int numCuenta,double saldo){
